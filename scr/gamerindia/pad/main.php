@@ -27,7 +27,7 @@ class Main extends PluginBase implements Listener{
     	$z = $player->getPosition()->getZ(); 
     	$block = $player->getWorld()->getBlock(new Vector3($x, $y - 0.5, $z));
     	if($block->getId() === 165){
-    		$player->setMotion(new Vector3(0, 4, 0))
+    		$player->setMotion(new Vector3(0, 4, 0));
 
     	}
     }
